@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Basketball Points Counter</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="page"><b>HOME</b></h3>
+                <h2 id="home-score">0</h2>
+                <button class="btn" id="home-score-btn-1" onclick="btn1()"><b>+1</b></button>
+                <button class="btn" id="home-score-btn-2" onclick="btn2()"><b>+2</b></button>
+                <button class="btn" id="home-score-btn-2" onclick="btn3()"><b>+3</b></button>
+            </div>
+            <div>
+                <h3 class="page"><b>GUEST</b></h3>
+                <h2 id="guest-score">0</h2>
+                <button class="btn" id="guest-score-btn-1" onclick="btn4()"><b>+1</b></button>
+                <button class="btn" id="guest-score-btn-2" onclick="btn5()"><b>+2</b></button>
+                <button class="btn" id="guest-score-btn-3" onclick="btn6()"><b>+3</b></button>
+            </div>
+        </div>
+        <div>
+            <button class="box" onclick="refresh()"><b>REFRESH</b></button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
